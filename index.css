@@ -1,0 +1,259 @@
+
+
+@media screen and (max-width:550px){
+    
+body{
+
+    background-color: hsl(209, 49%, 91%);
+    padding: 4em;
+    
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: manrope;
+
+}
+
+
+.main-container{
+background-color: white;
+
+
+margin-right: 13em;
+margin-left: 13em;
+border-radius: .5em;
+width: 30em;
+
+
+}
+
+
+/*This allows your image to fit inside your container without it being to big or anything like that.*/
+.main-container>img{
+
+  width: 100%;
+  height: 100%;
+  border-radius: .5em;
+
+}
+.Text-profile-container{
+
+
+    padding: 1em;
+}
+
+
+
+
+
+/*text Class styling*/
+
+.GreyIshBlue{
+
+    color: hsl(217, 19%, 35%);
+    font-weight: bold;
+}
+
+#Date-color{
+
+    color:  hsl(212, 23%, 69%);
+}
+
+
+/* profile styling- styling for profile picture,name and date*/
+.profile{
+display: flex;
+gap: 1em;
+padding: 1em;
+    margin-bottom: 2em;
+}
+
+
+
+.profile>img{
+
+    border-radius: 10em;
+    height: 3em;
+}
+
+
+#Name-Date{
+
+    display: flex;
+    flex-direction: row;
+  gap: 10em;
+}
+
+#Name-Date p{
+
+   
+    margin-top: -.1em;
+    margin-bottom: 4px;
+}
+
+#Share2-icon{
+
+    display: none;
+}
+#Share-icon{
+
+    position: relative;
+    top:-.1em;
+    background-color:  hsl(210, 46%, 95%);
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-radius: 10em;
+cursor: pointer;
+}
+
+.socialMedia{
+background-color: hsl(217, 19%, 35%);
+display: flex;
+flex-direction: row;
+gap: 2em;
+color: hsl(212, 23%, 69%);
+justify-content: center;
+align-items: center;
+height: 6em;
+border-bottom-left-radius: 1em;
+border-bottom-right-radius: 1em;
+display: none;
+cursor: pointer;
+}
+
+.socialMedia img{
+
+    height:2em;
+}
+.socialMedia>p{
+letter-spacing: .5em;
+
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:550px){
+body{
+
+    background-color: hsl(210, 46%, 95%);
+}
+.main-container{
+
+    background-color: white;
+    margin: 10em;
+    display: flex;
+    height:20em;
+    width: 60em;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+}
+.Text-profile-container{
+
+    padding: 2em;
+}
+
+.main-container>img{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+
+}
+
+.profile{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+
+}
+
+.profile>img{
+
+    height: 3em;
+    border-radius: 10em;
+    margin-top: 1em;
+   
+}
+.GreyIshBlue{
+    color: hsl(217, 19%, 35%);
+    font-weight: bold;
+ 
+
+}
+
+#Date-color{
+
+    color: hsl(212, 23%, 69%);
+    margin-top: -1em;
+}
+#Name-Date{
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 14em;
+}
+#Share-icon{
+
+    display: none;
+}
+#Share2-icon{
+    background-color:  hsl(210, 46%, 95%);
+    border-radius: 10em;
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+
+.socialMedia{
+    display: none;
+}
+
+#SocialMedi-Desktop{
+
+    background-color:  hsl(217, 19%, 35%);
+    color: white;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    height: 1em;
+    width: 10em;
+    cursor: pointer;
+    position: relative;
+    top: -7em;
+    left: 19em;
+
+   
+}
+#SocialMedi-Desktop>img{
+
+    height: 1em;
+
+}
+
+}
+
